@@ -4,9 +4,17 @@
     "description": "setup utils for @arcanist-ui",
     "main": "./src/index.js",
     "prettier": "@arcanist-ui/formatter",
-    "author": "Arcane Software LLC",
-    "license": "UNLICENSED",
     "devDependencies": {
         "@arcanist-ui/formatter": "^0.0.1"
+    },
+    "author": "Arcane Software LLC",
+    "license": "UNLICENSED",
+    "homepage": "https://github.com/arcanesoftwarellc/setup-utils#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arcanesoftwarellc/setup-utils.git"
+    },
+    "bugs": {
+        "url": "https://github.com/arcanesoftwarellc/setup-utils/issues"
     }
 }
