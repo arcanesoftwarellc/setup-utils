@@ -1,8 +1,15 @@
 {
     "name": "@arcanist-ui/setup-utils",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "setup utils for @arcanist-ui",
     "main": "./src/index.js",
+    "prettier": "@arcanist-ui/formatter",
+    "scripts": {
+        "publish": "npm publish --access public"
+    },
     "author": "Arcane Software LLC",
-    "license": "UNLICENSED"
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "@arcanist-ui/formatter": "^0.0.1"
+    }
 }
