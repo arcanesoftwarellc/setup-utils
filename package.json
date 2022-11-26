@@ -1,11 +1,11 @@
 {
     "name": "@arcanist-ui/setup-utils",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "setup utils for @arcanist-ui",
     "main": "./src/index.js",
     "prettier": "@arcanist-ui/formatter",
     "devDependencies": {
-        "@arcanist-ui/formatter": "^0.0.1"
+        "@arcanist-ui/formatter": "^0.0.3"
     },
     "author": "Arcane Software LLC",
     "license": "UNLICENSED",
