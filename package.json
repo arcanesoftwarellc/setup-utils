@@ -1,0 +1,8 @@
+{
+    "name": "@arcanist-ui/setup-utils",
+    "version": "0.0.1",
+    "description": "setup utils for @arcanist-ui",
+    "main": "./src/index.js",
+    "author": "Arcane Software LLC",
+    "license": "UNLICENSED"
+}
