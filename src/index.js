@@ -7,10 +7,7 @@ const execute = cmd => {
     }).toString()
 }
 
-const isPackage = name => {
-    const pkg = execute(`npm pkg get name`)
-    return pkg.includes(name)
-}
+const isPackage = name => execute(`npm pkg get name`).includes(name)
 
 const setPackageJson = config =>
     Object.entries(config).forEach(([key, value]) => {
